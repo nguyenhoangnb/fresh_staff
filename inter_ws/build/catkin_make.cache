@@ -1,0 +1,2 @@
+tutorial_pkg
+-DCATKIN_DEVEL_PREFIX=/home/hoang/inter_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hoang/inter_ws/install -G Unix Makefiles
