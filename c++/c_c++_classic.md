@@ -189,24 +189,7 @@ int add(int a, int b) { return a + b; }
 - Tránh trả về tham chiếu hoặc con trỏ tới biến local (sẽ dẫn tới UB).
 - Có thể trả về by value, hoặc trả về smart pointer / object.
 
-### Một số tính năng mở rộng (C / C++)
-- Overload (C++): cùng tên nhiều chữ ký.
-- Default arguments (C++): `int add(int a, int b = 1)`
-- Inline / constexpr (C++): `inline`, `constexpr` cho compile-time.
-- Variadic functions:
-  - C: `int printf(const char *fmt, ...);`
-  - C++ templates: `template<typename... Args> void f(Args... args);`
-- Function pointer:
-  ```c
-  int sum(int a,int b){return a+b;}
-  int (*op)(int,int) = sum;
-  int r = op(2,3);
-  ```
-- Lambda (C++11+):
-  ```cpp
-  auto square = [](int x){ return x*x; };
-  std::cout << square(5);
-  ```
+
 
 ### Ví dụ tổng hợp (C++)
 ```cpp
