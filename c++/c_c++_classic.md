@@ -180,7 +180,7 @@ int add(int a, int b) { return a + b; }
   void inc(int &x) { ++x; }      // C++
   void inc_ptr(int *p) { ++*p; } // C
   ```
-- Tham chiếu hằng (const &): truyền tham chiếu để tránh copy nhưng không cho thay đổi.
+- Tham chiếu hằng (const &): truyền tham chiếu để tránh copy và không cho thay đổi.
   ```cpp
   void print(const std::string &s) { std::cout << s; }
   ```
